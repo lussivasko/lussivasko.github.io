@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white; 
+    min-height: 100%;
+}
+header {
+    background-image: url(image/Layer_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    overflow: hidden;
+}
+img {
+    float: left;
+    width: 112px;
+    height: 19px;
+    max-width: 100%
+}  
+a {
+    text-decoration: none;
+}
+h1, h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    width: 379px;
+    height: 23px;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 70px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+.title {
+    padding: 293px, 359px;
+}
+
+.title__heading {
+    text-align: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+.title__desc {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 43px;
+}
+.title__desc {
+    width: 604px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+}
+.flex-container {
+    margin: 0 auto; 
+    max-width: 990px;
+    width: 100%;
+    display: flex;
+
+}
+.blockfirst {
+    width: 112px;
+    height: 19px;
+
+}
