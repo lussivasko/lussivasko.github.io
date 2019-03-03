@@ -5,6 +5,7 @@
 @background-color: #f3f3f3;
 body {
     margin: 0;
+    position: relative;
 }
 header {
     background-image: url(image/Layer_1.png);
@@ -48,6 +49,7 @@ li {
     align-items: center;
     width: 97%;
     padding: 30px;
+    position: fixed;
 }
 ul {
     display: flex;
@@ -73,7 +75,7 @@ h1 {
     text-align: center;
     color: @color-First;
 }
-h3 {
+h3 .title {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -134,25 +136,65 @@ i {
          width: 450px;
      }
     
-      h2, p {
+      h2, p .about {
         text-align: center;
       }
-     a.items {
+     i {
         height: 50px;
         width: 50px;
-        background-color: @color-items;
+        background-color: @color-Second;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 50%;
-        margin: 0px 0px 50px;
-
+        margin: 25px 12px 50px;
+        &:hover {
+            background-color: @color-items;
+        }
      } 
-    
-
+     .items {
+         display: flex;
+         a {
+             text-decoration: none;
+         }   
+     }
 }
-
+.Creative {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    color: @color-Second;
+    .left-text {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 321px;
+        height: 101px;
+        h3 .Creative {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+            
+        }
+    }
+    .right-text {
+        text-align: left;
+        width: 515px;
+        height: 114px;
+        p {
+            font-size: 14px;
+        };
+    }
+}
+.vero {
+    color: @color-items;
+    font-weight: 700;
+}
+.ducimus {
+    font-weight: 700;
+}
 
 
 
