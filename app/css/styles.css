@@ -11,6 +11,27 @@ header {
   opacity: 1.5;
   position: relative;
 }
+.to_top {
+  border-radius: 25px;
+  transition: all 0.3s linear;
+  background: #19bd9a;
+  bottom: 10px;
+  color: #000;
+  cursor: pointer;
+  display: none;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  right: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 50px;
+  font-weight: bold;
+}
+.MyButn:hover {
+  background-color: #555;
+}
 .logo {
   min-width: 100%;
 }
@@ -86,7 +107,7 @@ h2 {
   text-transform: uppercase;
   color: #333b46;
 }
-button {
+button.onFirstBlock {
   height: 50px;
   width: 50px;
   background-color: #19bd9a;
@@ -117,7 +138,7 @@ i {
 }
 .modal-content {
   position: relative;
-  background-color: #81868e;
+  background-color: rgba(206, 139, 94, 0.829);
   margin: auto;
   padding: 0;
   border: 1px solid #888;
@@ -339,28 +360,28 @@ i {
 }
 .right_column {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 500px;
   margin-top: 130px;
 }
-.right_column .eighty span {
+.eighty span {
   font-size: 25px;
   border: 3px solid black;
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 30px;
   align-items: center;
 }
-.right_column .seventy span {
+.seventy span {
   font-size: 25px;
   border: 3px solid black;
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 30px;
   align-items: center;
 }
-.right_column .sixty span {
+.sixty span {
   font-size: 25px;
   border: 3px solid black;
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 30px;
   align-items: center;
 }
