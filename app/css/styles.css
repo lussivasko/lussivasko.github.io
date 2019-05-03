@@ -579,6 +579,12 @@ i {
   display: flex;
   justify-content: space-between;
 }
+.portfolio-text .menu-portfolio ul {
+  height: 49px;
+  width: 900px;
+  text-decoration: none;
+  border: none;
+}
 .portfolio-text .menu-portfolio li a {
   color: black;
   font-weight: bold;
@@ -629,5 +635,28 @@ i {
   border-top-right-radius: 30px;
 }
 .accus {
-  font-weight: 900;
+  font-weight: 700;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+}
+.team-text {
+  text-align: center;
+}
+.team-carucel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.team-line {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.brand {
+  text-align: left;
+}
+.ing {
+  text-align: right;
 }
